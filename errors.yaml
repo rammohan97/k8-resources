@@ -4,7 +4,9 @@ metadata:
   name: error-test
 spec:
   containers:
-    - name: nginx
-      image: nginxddwd
-      ports:
-        - containerPort: 80
+    # - name: nginx
+    #   image: nginxddwd
+    #   ports:
+    #     - containerPort: 80
+    - name: almalinux
+      image: almalinux:9
