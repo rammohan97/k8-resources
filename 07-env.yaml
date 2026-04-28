@@ -5,8 +5,7 @@ metadata:
 spec:
   containers:
   - name: env-demo
-    image: busybox
-    command: ["/bin/sh", "-c", "env; sleep 3600"]
+    image: nginx
     env:
     - name: COURSE_NAME
       value: "DEvOps with Kubernetes"
