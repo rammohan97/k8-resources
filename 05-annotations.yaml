@@ -6,3 +6,9 @@ metadata:
     description: "This is an example of a pod with annotations."
     owner: "John Doe"
     imageregistry: "docker.io/library/nginx:latest"
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+    ports:
+    - containerPort: 80
