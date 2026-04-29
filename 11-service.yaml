@@ -11,5 +11,3 @@ spec:
     - protocol: TCP
       port: 80          # Service port
       targetPort: 80  # Container port where nginx is running
-
-  
