@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+meatadata:
+  name: nginx-service
+spec:
+  selector:
+    project: roboshop
+    component: frontend
+    environment: dev
+  ports:
+    - protocol: TCP
+      port: 80          # Service port
+      targetPort: 80  # Container port where nginx is running
+
+  
